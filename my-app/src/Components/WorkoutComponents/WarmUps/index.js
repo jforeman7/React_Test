@@ -1,17 +1,17 @@
 import React, { PureComponent } from 'react';
 
 /**
- *  Component for the Home Page.
+ *  Component for the Warm Ups Page.
  */
-class HomeComponent extends PureComponent {
+class WarmUpsComponent extends PureComponent {
 
     render() {
         return(
             <div>
-                GG
+                Warm Ups
             </div>
         );
     }
 }
 
-export { HomeComponent };
+export { WarmUpsComponent };
