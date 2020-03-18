@@ -1,12 +1,15 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 
-import { TestComponent } from '../TestComponent/TestComponent';
-
-class HomeComponent extends Component {
+/**
+ *  Component for the Home Page.
+ */
+class HomeComponent extends PureComponent {
 
     render() {
         return(
-            <TestComponent/>
+            <div>
+                GG
+            </div>
         );
     }
 }
